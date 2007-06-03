@@ -7,25 +7,26 @@ friends.
 
 Runtime requirements:
   cygwin-1.5.24-2
-  GConf2-2.16.0-1
-  gdk-pixbuf2-2.10.9-1
-  glib2-2.12.9-1
+  GConf2-2.16.1-1
+  gdk-pixbuf2-2.10.12-1
+  glib2-2.12.12-1
   gnome-panel-2.16.2-1
   gnome-vfs2-2.16.2-1
-  gtk2-x11-2.10.9-1
+  gtk2-x11-2.10.12-1
+  iso-codes-1.1-1
   libX11_6-1.1.1-1
   libXss1-1.1.1-1
   libaspell15-0.50.3-1
-  libdbus-glib_1_2-0.72-1
+  libdbus-glib_1_2-0.73-1
   libdbus1_3-1.0.2-1
   libglade2-2.6.0-1
   libgnome2-2.16.0-1
   libgnomeui2-2.16.1-1
   libintl8-0.15-1
   libtelepathy2-0.0.53-1
-  libxml2-2.6.27-1
-  loudmouth-1.0.4-1
-  pango-1.14.10-1
+  libxml2-2.6.28-1
+  loudmouth-1.2.2-1
+  pango-1.16.4-1
 
 Build requirements:
 (besides corresponding -devel packages)
@@ -36,9 +37,9 @@ Build requirements:
   cygport-0.2.11-1
   gawk-3.1.5-4
   gcc-core-3.4.4-3
-  gnome-common-2.12.0-2
-  gnome-doc-utils-0.8.0-1
-  intltool-0.35.4-1
+  gnome-common-2.18.0-1
+  gnome-doc-utils-0.10.0-1
+  intltool-0.35.5-1
   libtool1.5-1.5.23a-2
   make-3.81-1
   pkg-config-0.21-1
@@ -54,15 +55,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack gossip-0.24-X-src.tar.bz2
+  unpack gossip-0.26-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./gossip-0.24-X.cygport all
+  cygport ./gossip-0.26-X.cygport all
 
 This will create:
-  /usr/src/gossip-0.24-X-src.tar.bz2
-  /usr/src/gossip-0.24-X.tar.bz2
+  /usr/src/gossip-0.26-X-src.tar.bz2
+  /usr/src/gossip-0.26-X.tar.bz2
 
 -------------------------------------------
 
@@ -76,14 +77,14 @@ Files included in the binary package:
   /usr/lib/bonobo/servers/GNOME_Peekaboo_Applet.server
   /usr/sbin/peekaboo-applet.exe
   /usr/share/applications/gossip.desktop
-  /usr/share/doc/Cygwin/gossip-0.24.README
-  /usr/share/doc/gossip-0.24/AUTHORS
-  /usr/share/doc/gossip-0.24/CONTRIBUTORS
-  /usr/share/doc/gossip-0.24/COPYING
-  /usr/share/doc/gossip-0.24/ChangeLog
-  /usr/share/doc/gossip-0.24/INSTALL
-  /usr/share/doc/gossip-0.24/NEWS
-  /usr/share/doc/gossip-0.24/README
+  /usr/share/doc/Cygwin/gossip-0.26.README
+  /usr/share/doc/gossip-0.26/AUTHORS
+  /usr/share/doc/gossip-0.26/CONTRIBUTORS
+  /usr/share/doc/gossip-0.26/COPYING
+  /usr/share/doc/gossip-0.26/ChangeLog
+  /usr/share/doc/gossip-0.26/INSTALL
+  /usr/share/doc/gossip-0.26/NEWS
+  /usr/share/doc/gossip-0.26/README
   /usr/share/gnome/help/gossip/C/figures/gossip-available.png
   /usr/share/gnome/help/gossip/C/figures/gossip-away.png
   /usr/share/gnome/help/gossip/C/figures/gossip-busy.png
@@ -195,6 +196,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 0.26-1 -----
+Version bump.
 
 ----- version 0.24-1 -----
 Initial release for Cygwin.
