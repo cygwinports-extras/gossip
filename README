@@ -6,43 +6,44 @@ users of the GNOME Desktop a friendly way to keep in touch with their
 friends.
 
 Runtime requirements:
-  GConf2-2.18.0.1-1
   cygwin-1.5.24-2
-  gdk-pixbuf2-2.10.14-1
-  glib2-2.12.13-1
-  gnome-panel-2.18.3-2
-  gnome-vfs2-2.18.1-1
-  gtk2-x11-2.10.14-1
+  GConf2-2.20.1-1
+  gdk-pixbuf2-2.12.2-1
+  glib2-2.14.4-1
+  gnome-keyring-2.20.2-1
+  gnome-panel-2.20.2-1
+  gnome-vfs2-2.20.1-1
+  gtk2-x11-2.12.2-1
+  iso-codes-1.1-1
   libX11_6-1.1.3-1
   libXss1-1.1.2-1
   libaspell15-0.50.3-1
   libdbus-glib_1_2-0.74-1
   libdbus1_3-1.0.2-1
-  libglade2-2.6.1-1
-  libgnome2-2.18.0-1
-  libgnomeui2-2.18.1-1
+  libgalago-0.5.2-1
+  libgetaddrinfo0-1.6.3-2
+  libglade2-2.6.2-1
+  libgnome2-2.20.1.1-1
+  libgnomeui2-2.20.1.1-1
   libintl8-0.15-1
   libnotify-0.4.4-1
-  libxml2-2.6.29-1
+  libxml2-2.6.30-1
   loudmouth-1.2.3-1
-  pango-1.16.5-1
+  pango-1.18.3-1
 
 Build requirements:
 (besides corresponding -devel packages)
   cygwin-1.5.24-2
   autoconf2.5-2.61-1
-  automake1.9-1.9.6-2
+  automake1.10-1.10-1
   binutils-20060817-1
-  cygport-0.3.5-1
+  cygport-0.3.7-1
   gawk-3.1.5-4
   gcc-core-3.4.4-3
-  gnome-common-2.18.0-2
-  gnome-doc-utils-0.10.3-1
-  intltool-0.35.5-1
+  intltool-0.36.3-1
   libtool1.5-1.5.23a-2
   make-3.81-1
   pkg-config-0.21-1
-  scrollkeeper-0.3.14-2
   sed-4.1.5-2
 
 Canonical website:
@@ -74,41 +75,15 @@ Files included in the binary package:
   /etc/sound/events/gossip.soundlist
   /usr/bin/gossip.exe
   /usr/lib/bonobo/servers/GNOME_Peekaboo_Applet.server
-  /usr/sbin/peekaboo-applet.exe
+  /usr/lib/panel-2.0/peekaboo-applet.exe
   /usr/share/applications/gossip.desktop
-  /usr/share/doc/Cygwin/gossip-0.27.README
-  /usr/share/doc/gossip-0.27/AUTHORS
-  /usr/share/doc/gossip-0.27/CONTRIBUTORS
-  /usr/share/doc/gossip-0.27/COPYING
-  /usr/share/doc/gossip-0.27/ChangeLog
-  /usr/share/doc/gossip-0.27/INSTALL
-  /usr/share/doc/gossip-0.27/NEWS
-  /usr/share/doc/gossip-0.27/README
-  /usr/share/gnome/help/gossip/C/figures/gossip-available.png
-  /usr/share/gnome/help/gossip/C/figures/gossip-away.png
-  /usr/share/gnome/help/gossip/C/figures/gossip-busy.png
-  /usr/share/gnome/help/gossip/C/figures/gossip-extended-away.png
-  /usr/share/gnome/help/gossip/C/figures/gossip-offline.png
-  /usr/share/gnome/help/gossip/C/figures/gossip-personal-details.png
-  /usr/share/gnome/help/gossip/C/figures/gossip-roster.png
-  /usr/share/gnome/help/gossip/C/gossip.xml
-  /usr/share/gnome/help/gossip/C/legal.xml
-  /usr/share/gnome/help/gossip/es/figures/gossip-available.png
-  /usr/share/gnome/help/gossip/es/figures/gossip-away.png
-  /usr/share/gnome/help/gossip/es/figures/gossip-busy.png
-  /usr/share/gnome/help/gossip/es/figures/gossip-extended-away.png
-  /usr/share/gnome/help/gossip/es/figures/gossip-offline.png
-  /usr/share/gnome/help/gossip/es/figures/gossip-personal-details.png
-  /usr/share/gnome/help/gossip/es/figures/gossip-roster.png
-  /usr/share/gnome/help/gossip/es/gossip.xml
-  /usr/share/gnome/help/gossip/sv/figures/gossip-available.png
-  /usr/share/gnome/help/gossip/sv/figures/gossip-away.png
-  /usr/share/gnome/help/gossip/sv/figures/gossip-busy.png
-  /usr/share/gnome/help/gossip/sv/figures/gossip-extended-away.png
-  /usr/share/gnome/help/gossip/sv/figures/gossip-offline.png
-  /usr/share/gnome/help/gossip/sv/figures/gossip-personal-details.png
-  /usr/share/gnome/help/gossip/sv/figures/gossip-roster.png
-  /usr/share/gnome/help/gossip/sv/gossip.xml
+  /usr/share/doc/gossip-0.28/AUTHORS
+  /usr/share/doc/gossip-0.28/CONTRIBUTORS
+  /usr/share/doc/gossip-0.28/COPYING
+  /usr/share/doc/gossip-0.28/ChangeLog
+  /usr/share/doc/gossip-0.28/INSTALL
+  /usr/share/doc/gossip-0.28/NEWS
+  /usr/share/doc/gossip-0.28/README
   /usr/share/gossip/GNOME_Peekaboo_Applet.xml
   /usr/share/gossip/chat.glade
   /usr/share/gossip/file-transfer.glade
@@ -120,6 +95,7 @@ Files included in the binary package:
   /usr/share/gossip/gossip-contact-groups.dtd
   /usr/share/gossip/gossip-contact.dtd
   /usr/share/gossip/gossip-extended-away.png
+  /usr/share/gossip/gossip-file-transfer.png
   /usr/share/gossip/gossip-group-message.png
   /usr/share/gossip/gossip-log.xsl
   /usr/share/gossip/gossip-logo.png
@@ -130,11 +106,6 @@ Files included in the binary package:
   /usr/share/gossip/gossip-typing.png
   /usr/share/gossip/group-chat.glade
   /usr/share/gossip/main.glade
-  /usr/share/gossip/protocols/aim.protocol
-  /usr/share/gossip/protocols/gossip-protocol.dtd
-  /usr/share/gossip/protocols/icq.protocol
-  /usr/share/gossip/protocols/msn.protocol
-  /usr/share/gossip/protocols/yahoo.protocol
   /usr/share/gossip/vcard_16.png
   /usr/share/gossip/vcard_48.png
   /usr/share/icons/hicolor/16x16/apps/gossip.png
@@ -169,8 +140,8 @@ Files included in the binary package:
   /usr/share/locale/nb/LC_MESSAGES/gossip.mo
   /usr/share/locale/ne/LC_MESSAGES/gossip.mo
   /usr/share/locale/nl/LC_MESSAGES/gossip.mo
+  /usr/share/locale/oc/LC_MESSAGES/gossip.mo
   /usr/share/locale/pl/LC_MESSAGES/gossip.mo
-  /usr/share/locale/pt/LC_MESSAGES/gossip.mo
   /usr/share/locale/pt_BR/LC_MESSAGES/gossip.mo
   /usr/share/locale/ru/LC_MESSAGES/gossip.mo
   /usr/share/locale/sq/LC_MESSAGES/gossip.mo
@@ -183,9 +154,6 @@ Files included in the binary package:
   /usr/share/locale/zh_CN/LC_MESSAGES/gossip.mo
   /usr/share/locale/zh_HK/LC_MESSAGES/gossip.mo
   /usr/share/locale/zh_TW/LC_MESSAGES/gossip.mo
-  /usr/share/omf/gossip/gossip-C.omf
-  /usr/share/omf/gossip/gossip-es.omf
-  /usr/share/omf/gossip/gossip-sv.omf
   /usr/share/sounds/gossip/chat1.wav
   /usr/share/sounds/gossip/chat2.wav
   /usr/share/sounds/gossip/offline.wav

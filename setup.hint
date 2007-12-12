@@ -1,5 +1,5 @@
 category: Net Gnome
-requires: cygwin GConf2 glib2 gnome-panel gnome-vfs2 gtk2-x11 iso-codes libX11_6 libXss1 libaspell15 libdbus-glib_1_2 libdbus1_3 libglade2 libgnome2 libgnomeui2 libintl8 libnotify libxml2 loudmouth pango
+requires: cygwin GConf2 glib2 gnome-keyring gnome-panel gnome-vfs2 gtk2-x11 iso-codes libX11_6 libXss1 libaspell15 libdbus-glib_1_2 libdbus1_3 libgalago libgetaddrinfo0 libglade2 libgnome2 libgnomeui2 libintl8 libnotify libxml2 loudmouth pango
 sdesc: "GNOME Jabber messaging client"
 ldesc: "Gossip is an instant messaging client for GNOME. Layered on top 
 of the open protocol Jabber is a clean and easy-to-use interface, 
