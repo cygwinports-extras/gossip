@@ -1,0 +1,16 @@
+inherit gnome2
+
+DESCRIPTION="GNOME Jabber client"
+HOMEPAGE="http://developer.imendio.com/projects/gossip/"
+
+DIFF_EXCLUDES="gossip.desktop.in"
+
+CYGCONF_ARGS+="
+	--libexecdir=/usr/lib/panel-2.0
+	--enable-aspell
+	--enable-dbus
+	--enable-galago
+	--enable-gnome-keyring
+	--enable-libnotify
+	--with-backend=gnome
+"
